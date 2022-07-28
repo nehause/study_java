@@ -1,6 +1,6 @@
 package com.jhj.study.ch02;
 
-public class hello {
+public class Hello {
 
 	public static void main(String[] args) {
 		// 데이터타입 변수명 = 값;
