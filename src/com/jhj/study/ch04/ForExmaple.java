@@ -88,6 +88,7 @@ public class ForExmaple {
 			l += Integer.toString(k);
 			System.out.println(l);
 		} 
+		
 		String m = "";
 		for(int n=1; n<=10; n++) {
 			if(n==10) {
@@ -101,6 +102,32 @@ public class ForExmaple {
 			}
 		}
 		System.out.println(m);
+		
+
+		System.out.println("\n-------------------------\n");
+		
+		// 3번을 1개의 코드로 묶은 버전		
+		String r = "";
+		for(int o=1; o<=10; o++) {
+			if(o == 10) {
+				r = "";
+				for(int p=1; p<=10; p++) {
+					if(p==10) {
+						r += "0";
+					}else {
+						if(p%2==1) {
+							r += Integer.toString(p);
+						} else {
+							r += " ";
+						}
+					}
+				}
+				System.out.println(r);
+			} else {
+				r += Integer.toString(o);
+				System.out.println(r);
+			}
+		}
 
 	}
 
