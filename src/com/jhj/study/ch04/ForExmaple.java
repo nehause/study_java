@@ -127,8 +127,26 @@ public class ForExmaple {
 				r += Integer.toString(o);
 				System.out.println(r);
 			}
+			System.out.println("\n-------------------------\n");
+			
+			for(int s=1; s<=10; s++) {
+				if(s == 10) {
+					for(int t=1; t<=s-1; t++) {
+						if(t%2==1) {
+							System.out.print(t);
+						} else {
+							System.out.print(" ");
+						}
+					}
+					System.out.println("0");
+				} else {
+					for(int t=1; t<=s; t++) {
+						System.out.print(t);
+					}
+					System.out.println();
+				}
+			}
 		}
-
 	}
 
 }
