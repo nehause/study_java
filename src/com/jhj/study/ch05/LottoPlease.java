@@ -287,7 +287,7 @@ public class LottoPlease {
 			//System.out.println("linearNumber:" + linearNumber);
 			
 			
-			// 문자열로 변환
+			// 문자열로 변환 substring(0(1)번째 단어부터, (끝) 단어?)
 			/*
 			randomString = "";
 			for (int i=0; i<6; i++) {
