@@ -8,4 +8,8 @@ public class Iphone {
 	String[] version = {"2", "7", "X"};
 	double b = 1.2345;
 	
+	public void pr() {
+		System.out.println("String[] version : " + (version[0]+version[1]+version[2]));
+	}
+	
 }
