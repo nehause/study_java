@@ -1,6 +1,4 @@
-package com.jhj.study;
-
-import com.jhj.study.ch05.Week;
+package com.jhj.study.ch05;
 
 public class EnumWeekExample {
 
