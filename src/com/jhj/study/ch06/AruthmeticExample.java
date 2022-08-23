@@ -29,6 +29,10 @@ public class AruthmeticExample {
 		
 		aruthmeic.StringSum("안녕하세요", " 만나서 반갑습니다.");
 
+		int aaa;
+		
+		//aaa = plus(5,10);
+		
 	}
 
 }

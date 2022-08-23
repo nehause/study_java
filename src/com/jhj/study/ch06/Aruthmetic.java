@@ -19,6 +19,12 @@ public class Aruthmetic {
 		mul = a*b;
 		return mul;
 	}
+	// ==
+	public int multi2(int a, int b) {
+		return a*b;
+	}
+	
+	
 	
 	public int divide(int a, int b) {
 		int div = 0;
