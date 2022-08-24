@@ -44,4 +44,12 @@ public class Aruthmetic {
 	public void StringSum(String a, String b) {
 		System.out.println(a+b);
 	}
+	
+	public int aaa(int a) {
+		return a+1;
+	}
+	
+	static int StaticTest() {
+		return 1;
+	}
 }

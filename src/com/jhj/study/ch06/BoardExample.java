@@ -14,7 +14,14 @@ public class BoardExample {
 		System.out.println(board3.name + ", " + board3.join + ", " + board3.use);
 		System.out.println(board4.name + ", " + board4.join + ", " + board4.use);
 		System.out.println(board5.name + ", " + board5.join + ", " + board5.use);
-
+		
+		System.out.println("\n==========================\n");
+		
+		board.say();
+		board2.say();
+		board3.say();
+		board4.say();
+		board5.say();
 		
 		
 	}

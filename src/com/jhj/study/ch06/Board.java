@@ -10,24 +10,31 @@ public class Board {
 	}
 	
 	Board(String str){
-		name = str;
+		this.name = str;
 		
 	}
 	
 	Board(String str, int i){
-		name = str;
-		join = i;
+		this.name = str;
+		this.join = i;
 	}
 	
 	Board(String str, boolean b){
-		name = str;
-		use = b;
+		this.name = str;
+		this.use = b;
 	}
 	
 	Board(String str, int i, boolean b){
-		name = str;
-		join = i;
-		use = b;
+		this.name = str;
+		this.join = i;
+		this.use = b;
 	}
-	
+	/*
+	public void say(String str,int i, boolean b){
+		System.out.println(str + ", " + i + ", " + b);
+	}
+	*/
+	public void say() {
+		System.out.println(name + ", " + join +", " + use);
+	}
 }
