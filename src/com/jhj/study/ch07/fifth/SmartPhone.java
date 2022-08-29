@@ -1,4 +1,4 @@
-package com.jhj.study.fifth;
+package com.jhj.study.ch07.fifth;
 
 public class SmartPhone extends Phone{
 	//생성자

@@ -1,4 +1,4 @@
-package com.jhj.study.fifth;
+package com.jhj.study.ch07.fifth;
 
 public class SmartPhoneExample {
 
